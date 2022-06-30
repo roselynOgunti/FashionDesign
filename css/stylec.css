@@ -1,0 +1,48 @@
+/*this section contain our heading (contact us today and you will never regert*/
+.heading{
+text-align: center;
+background-color:rgba(126, 236, 104, 0.466);
+font-family: cursive;
+}
+
+
+/*this contain the div that hold the form and our inforation */
+
+.information{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+background-color: rgb(224, 224, 222);
+}
+
+/*this is the main section that contain our form and information*/
+
+/*This section contain the div place on the right with our contact number, email, and address*/
+.information >#text{
+    border: none;
+    width: 30rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: rgba(163, 98, 136, 0.932);
+    height: 40rem;
+}
+/*This section contain our heading (Please Leave a Message with us and contact us now */
+.information >div >h2{
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+}
+
+.information >div >p{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+/*Our form style*/
+.information #form{
+    background-color: rgb(98, 145, 163);
+    border: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}

@@ -1,0 +1,310 @@
+/*This section contain the logo*/
+/*The div that containt the logo*/
+.logo{
+    width: auto;
+    height:5rem;
+    background-color:seagreen;
+    border-bottom: 0.5rem solid white;
+    
+}
+/*The logo image */
+.logo >img{
+    height: 4rem;
+    margin-top: 0.4rem;
+    
+}
+/*the div that hold the text (new look fashion design) in the logo section*/
+.logo >div{
+    position: relative;
+    bottom: 6.8rem;
+    margin-left: 38rem;
+}
+/*this section containt the paragraph in the logo section (new look fashion design*/
+.logo >div >p{
+    font-size: 3rem;
+    color: rgb(238, 255, 239);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(34, 243, 233), 0 0 5px rgb(82, 238, 238);
+
+}
+
+
+/*this section contain the nav bar */
+.nav{
+    background-color: rgb(67, 227, 238);
+    border-bottom: 0.5rem solid rgb(0, 0, 0);
+    text-align: center;
+    overflow: hidden;
+}
+/*This section containt the link on the nav bar*/
+.nav >a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 10px 20px;
+
+}
+/*this section contain the hover section onthe nav bar*/
+.nav >a:hover{
+    background-color: white;
+    color: rgb(30, 61, 46);
+}
+/*This section contain the div that hold the banner image*/
+header .banner{
+    width: auto;
+    height: 37rem;
+    padding: 0;
+    background: url(../images/bang.png) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    overflow: hidden;
+    border-top: 0.5rem solid rgb(36, 233, 247);
+
+}
+
+}
+/*div that contain text on the banner image (60% Discound*/
+.text{
+    z-index: 2rem;
+    position: relative;
+    bottom: 32rem;
+    
+}
+
+/*text on the banner image*/
+.text >h1{
+    font-size: 3rem;
+    margin-left: 3rem;
+    color: rgba(255, 136, 0, 0.541)
+}
+
+/*brand name on the banner */
+.text >p{
+ font-size: 4rem;
+ text-transform: uppercase;
+ text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 119, 255), 0 0 5px darkblue;
+ color: whitesmoke;
+ margin-left: 2rem;
+ margin-top: 9rem;
+}
+
+/*this section contain the div right under the banner image with the background*/
+.second{
+    width: auto;
+    height: 30rem;
+    background-color: black;
+    margin-top: 1rem;
+    background-image: url(../images/two.jpg);
+    z-index: -2;
+    margin-top: 10rem;
+}
+/*this section contian the round div with image floating over the banner image and the below background*/
+.second{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/*This section contain the main round div with image floating over the banner image and the below background*/
+.second >div{
+    width: 16rem;
+    height: 16rem;
+    background-color: chocolate;
+    border-radius: 8rem;
+    position: relative;
+    bottom: 13rem;
+
+}
+/*This section contain the round image floating over the banner image*/
+.second >div >img{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 8rem;
+}
+
+/*This section contain our vision*/
+.our{
+    width: auto;
+    height: auto;
+    background-color: rgb(240, 233, 233);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+}
+/*This section containt he heading section (Our vision/our goal*/
+.our >div >h2{
+    text-align: center;
+    color: rgb(43, 255, 0);
+}
+/*This section contain the div that the text is place in*/
+.our >div{
+    line-height: 2rem;
+    width: 35rem;
+
+}
+
+.our >div >img{
+    width: 38rem;
+    margin-top: 4rem;
+    height: 40rem;
+}
+}
+
+
+/*the div that contain right below our vision*/
+.bang{
+    width: auto;
+    height: auto;
+    margin-top: 3rem;
+}
+
+.bang >img{
+    width : 83rem;
+}
+
+
+
+/*this section contain our customer photo*/
+
+.test{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+/*The div that all the text is place in*/
+.test >div{
+    height: 24rem;
+    width: 20rem;
+    border-bottom-left-radius: 8rem;
+    border: 0.3rem solid black;
+    background-color: blanchedalmond;
+    text-align: center;
+    
+}
+
+/*the image section*/
+.test >div >img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 7rem;
+    border:0.3rem solid black;
+    margin-left: 5rem;
+    position: relative;
+    bottom: 4rem;
+}
+/*this section contain testimony from our customer*/
+.customer{
+    background-color:teal;
+    text-align: center;
+    font-family: cursive;
+    font-size: 3rem;
+    color: white;
+}
+
+
+/*this portion contain the div that our customer names are placed into*/
+.test #name{
+    background-color: black;
+    width: 20rem;
+    height: 2rem;
+    position: relative;
+    bottom: 5rem;
+    text-align: center;
+}
+/*this section contain our customer name*/
+.test #name >h5{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.test >div >p{
+    position: relative;
+    bottom: 6rem;
+    font-size: 1.3rem;
+}
+
+/*This section contain more photo over the photo*/
+.morephoto{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.morephoto >div{
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+    top: 2rem;
+}
+
+.morephoto >div >img{
+    width: 12rem;
+    height: 12rem;
+    border: 0.4rem solid black;
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*This section contain our footer*/
+footer{
+    background: black;
+    height: 15rem;
+    width: auto;
+    border-top: 0.5rem solid goldenrod;
+    margin-top: 3rem;
+    overflow: hidden;
+    
+}
+
+footer .infoot{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: white;
+    overflow: hidden;
+}
+/*this section contain the heading in the footer section*/
+/*this section containthe headings in the footer*/
+.infoot .social{
+margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: white;
+    overflow: hidden;
+}
+footer .infoot #foot >h6{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    bottom: 4rem;
+    text-transform: uppercase;
+} 
+/*This section contain the paragram under the headings in the footer*/
+footer .infoot #foot >p{
+    position: relative;
+    bottom: 8rem;
+    color: red;
+    font-size: 1.5rem;
+}
+/*This section contain the social media logo in the footer section*/
+.social{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    z-index: 3rem;
+    background-color: black;
+    overflow: hidden;
+}
+
+.social #logo >a >img{
+    width: 2rem;
+    height: 2rem;
+}

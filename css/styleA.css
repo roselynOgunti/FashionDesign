@@ -1,0 +1,83 @@
+/*This is the banner image section*/
+.banner2 >img{
+    width: 83.3rem;
+    height: 32rem;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*this section contain About Us*/
+/*This con the div that About us is place*/
+.about{
+background-color: honeydew;
+text-align: center;
+}
+
+/*This contain the style for the heading in About us*/
+.about >h1{
+    font-size: 3rem;
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px rgb(82, 238, 238);
+}
+
+/*This contain the style for the paragraph in About us*/
+.about >p{
+    font-size: 2rem;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*this section contain Our team photo*/
+.team{
+    background-color: rgb(7, 4, 0);
+}
+
+.team >h3{
+    font-size: 3rem;
+    text-align: center;
+    color: brown
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*this is our team member photo*/
+.member{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    
+}
+
+/*this is the div that our member photo is place in*/
+.member >div{
+    width: 18rem;
+    height: 18rem;
+    background-color: rgba(122, 165, 42, 0.932);
+    text-align: center;
+}
+
+/*this is our team photo style*/
+
+.member >div >img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 7.5rem;
+    position: relative;
+    bottom: 5rem;
+   
+}
+
+/*This is the style for the text under our team photo*/
+
+.member >div >h4{
+    position: relative;
+    bottom: 5rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.member >div >p{
+    position: relative;
+    bottom: 4rem;
+    color: white;
+    font-size: 1.2rem;
+}
+

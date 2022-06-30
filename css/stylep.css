@@ -1,0 +1,58 @@
+/*This is the banner image section*/
+ .banner2 >img{
+    width: 83.3rem;
+    height: 32rem;
+}
+
+/*this is the header section (Our Product)*/
+.product >h1{
+    text-align: center;
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 4rem;
+}
+
+.product >p{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+/*images in our product*/
+.photo1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.photo1 >div >img{
+    width: 10rem;
+    height: 8.5rem;
+
+}
+
+.photo1 >div{
+    width: 10rem;
+    height: 10rem;
+    background-color: gainsboro;
+    border: 0.2rem solid gold;
+}
+
+/*this is our product prices */
+.photo1 >div #price{
+    position: relative;
+    bottom: 1rem;
+    text-align: center;
+    color: red;
+    background-color: black;
+
+}
+/*this section contain buttom*/
+button{
+    background-color: blue;
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+    margin-left: 30rem;
+   
+}
